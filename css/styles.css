@@ -1,0 +1,30 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.content {
+  background-color: hsl(0, 0%, 100%);
+  margin: 10% auto;
+  width: 18%;
+  padding: 1%;
+  border-radius: 4.5%;
+}
+.image {
+  border-radius: 4.5%;
+  /* The width of the picture is 100% to fit the parent element */
+  width: 100%;
+}
+.bold-text {
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.paragraph {
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+/*Media query to accomodate phone and desktop sizes */
+@media only screen and(min-width: 375px) and (max-width: 1440px) {
+}
