@@ -12,17 +12,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:https://www.frontendmentor.io/solutions/used-media-query-for-different-screen-sizes-and-box-model-for-position-1HL9MimlQQ#comment-6319ee0105bcd1e28b9eabe0
+- Live Site URL:https://nondaba.github.io/QRCodeComponent/
 
 ### Built with
 
 - HTML5 markup
 - CSS custom properties
+- Flexbox
 
 ### What I learned
 
-I learned to use HTML elements to structure the content and class naming with css properties to style the page to be specific,the box model. Used google fonts for text. Improved my researching skills. The project is deployed on github.
+I learned to use HTML elements to structure the content and class naming with css properties to style the page to be specific,flex box. Used google fonts for text. Improved my researching skills. The project is deployed on github.
 
 ### Useful resources
 
