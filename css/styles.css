@@ -1,35 +1,43 @@
+/* Custom varaibles */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-lightgrey: hsl(212, 45%, 89%);
+  --color-grayishblue: hsl(220, 15%, 55%);
+  --color-darkblue: hsl(218, 44%, 22%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  background-color: var(--color-lightgrey);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  text-align: center;
 }
-
-.content {
-  background-color: hsl(0, 0%, 100%);
-  justify-content: center;
-  width: 18%;
-  padding: 1%;
-  border-radius: 1rem;
+.container {
+  background-color: var(--color-white);
+  border-radius: 1.5rem;
+  padding: 15px;
+  margin: 25px 25px;
+  width: 360px;
+  height: 550px;
 }
-.image {
-  border-radius: 0.5rem;
-  /* The width of the picture is 100% to fit the parent element */
+.container img {
   width: 100%;
+  border-radius: 1rem;
 }
 
 .heading {
-  color: hsl(218, 44%, 22%);
-  font-size: 19px;
-  text-align: center;
-  font-family: "Outfit", sans-serif;
+  color: var(--color-darkblue);
+  padding-top: 20px;
+  font-size: 25px;
 }
 .paragraph {
-  color: hsl(220, 15%, 55%);
+  color: var(--color-grayishblue);
+  padding: 20px 35px;
   font-size: 15px;
-  text-align: center;
-  font-family: "Outfit", sans-serif;
-}
-/*Media query to accomodate phone and desktop sizes */
-@media only screen and(min-width: 375px) and (max-width: 1440px) {
 }
